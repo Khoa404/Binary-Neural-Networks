@@ -1,6 +1,6 @@
 # BNN (Binary Neural Network)
 
-From the article: "Efficient Hardware Implementation of Robust Binary Neural Networks Using End-to-End Unipolar Representation" by Babak GOLBABAEI, ​​Yirong KAN, Renyuan ZHANG, Yasuhiko NAKASHIMA [Link](https://globals.ieice.org/en_transactions/fundamentals/10.1587/transfun.2025VLP0002/_f)
+From the article: `"Efficient Hardware Implementation of Robust Binary Neural Networks Using End-to-End Unipolar Representation"` by Babak GOLBABAEI, ​​Yirong KAN, Renyuan ZHANG, Yasuhiko NAKASHIMA [Link](https://globals.ieice.org/en_transactions/fundamentals/10.1587/transfun.2025VLP0002/_f)
 
 ## BNN.py
 
@@ -20,3 +20,10 @@ The **BNN.py** file implements a Stochastic Binary Neural Network optimized for 
 - Efficient computation through binary weight operations
 - Training on MNIST dataset with optional GPU support
 - Configurable batch size, learning rate, and training epochs
+
+### Training:
+
+- Epoch: 365 | Loss: 0.0890 | Steepness: 9.0
+>>> Test Accuracy: 95.05%
+
+<img width="1390" height="490" alt="image" src="https://github.com/user-attachments/assets/fc52308c-b3c1-4cab-b80f-ea71aed263cc" />
