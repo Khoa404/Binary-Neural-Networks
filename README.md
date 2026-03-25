@@ -1,6 +1,21 @@
-# BNN (Binary Neural Network)
+# BNN Research Reproduction (MNIST)
 
-From the article: `"Efficient Hardware Implementation of Robust Binary Neural Networks Using End-to-End Unipolar Representation"` by Babak GOLBABAEI, ​​Yirong KAN, Renyuan ZHANG, Yasuhiko NAKASHIMA [Link](https://globals.ieice.org/en_transactions/fundamentals/10.1587/transfun.2025VLP0002/_f)
+This repository contains my experimental implementation of a **Stochastic/Binary Neural Network (BNN)** for MNIST classification, developed for learning and research purposes.
+
+## Academic Attribution (Important)
+
+This project is **based on concepts and methodology** from the following paper:
+
+> Babak Golbabaei, Yirong Kan, Renyuan Zhang, Yasuhiko Nakashima,  
+> **"Efficient Hardware Implementation of Robust Binary Neural Networks Using End-to-End Unipolar Representation"**  
+> IEICE Transactions on Fundamentals  
+> Link: https://globals.ieice.org/en_transactions/fundamentals/10.1587/transfun.2025VLP0002/_f
+
+### Disclaimer
+
+- This is an **independent re-implementation**, not the authors’ official source code.
+- Some details (training setup, hyperparameters, architecture choices) may differ from the original publication.
+- All credit for the original idea and method belongs to the paper authors.
 
 ## BNN.py
 
@@ -27,3 +42,13 @@ The **BNN.py** file implements a Stochastic Binary Neural Network optimized for 
 >>> Test Accuracy: 95.05%
 
 <img width="1390" height="490" alt="image" src="https://github.com/user-attachments/assets/fc52308c-b3c1-4cab-b80f-ea71aed263cc" />
+
+## Citation
+
+If you use this repository in academic work, please cite the original paper first.
+
+```text
+Golbabaei, B., Kan, Y., Zhang, R., & Nakashima, Y.
+Efficient Hardware Implementation of Robust Binary Neural Networks Using End-to-End Unipolar Representation.
+IEICE Transactions on Fundamentals.
+```
